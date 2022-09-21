@@ -56,6 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
     //* Tracks the updated letters in the array
     function selectLetter(letter) {
         const currentWordArray = getCurrentWordArray();
+        letter_set = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+        if(!letter_set.includes(letter)){
+            return;
+        }
 
         if (currentWordArray && currentWordArray.length < 5) {
             currentWordArray.push(letter);
