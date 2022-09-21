@@ -1,2 +1,2 @@
 # JS-Wordle
-For Fun Wordle Implementation (CSS and some HTML from tutorial)
+A for fun Wordle implementation I made to run after I finish the Wordle CSS and some HTML from tutorial).
