@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+
+    <script src="js/main.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div id="container">
+        <div id="game">
+            <header>
+                <h1 class="title">WORDLE</h1>
+            </header>
+
+            <div id="board-container">
+                <div id="board"></div>
+            </div>   
+
+            <div id="keyboard-container">
+                <div class="keyboard-row">
+                    <button id="q" data-key="q">q</button>
+                    <button id="w" data-key="w">w</button>
+                    <button id="e" data-key="e">e</button>
+                    <button id="r" data-key="r">r</button>
+                    <button id="t" data-key="t">t</button>
+                    <button id="y" data-key="y">y</button>
+                    <button id="u" data-key="u">u</button>
+                    <button id="i" data-key="i">i</button>
+                    <button id="o" data-key="o">o</button>
+                    <button id="p" data-key="p">p</button>
+                </div>
+
+                <div class="keyboard-row">
+                    <div class="spacer-half"></div>
+                    <button id="a" data-key="a">a</button>
+                    <button id="s" data-key="s">s</button>
+                    <button id="d" data-key="d">d</button>
+                    <button id="f" data-key="f">f</button>
+                    <button id="g" data-key="g">g</button>
+                    <button id="h" data-key="h">h</button>
+                    <button id="j" data-key="j">j</button>
+                    <button id="k" data-key="k">k</button>
+                    <button id="l" data-key="l">l</button>
+                    <div class="spacer-half"></div>
+                </div>
+
+                <div class="keyboard-row">
+                    <button data-key="enter" class="wide-button">Enter</button>
+                    <button id="z" data-key="z">z</button>
+                    <button id="x" data-key="x">x</button>
+                    <button id="c" data-key="c">c</button>
+                    <button id="v" data-key="v">v</button>
+                    <button id="b" data-key="b">b</button>
+                    <button id="n" data-key="n">n</button>
+                    <button id="m" data-key="m">m</button>
+                    <button data-key="delete" class="wide-button">Del</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
